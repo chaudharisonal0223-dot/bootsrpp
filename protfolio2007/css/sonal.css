@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.sonal-body{
+    background-color: #6a0ef6;
+}
+
+.sonal-image img{
+    width: 70%;
+    height: auto;
+    /* border-radius: 50%; */
+   
+    
+}
+
+.sonal-text{
+    color: rgb(236, 210, 210);
+}
