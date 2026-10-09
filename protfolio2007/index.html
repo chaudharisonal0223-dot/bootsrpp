@@ -1,81 +1,253 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
 
-    <!--custom css-->
-   <link rel="stylesheet" href="./css/sonal.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
 
-    <!--bootstrap css-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-  </head>
+  <!--custom css-->
+  <link rel="stylesheet" href="./css/sonal.css">
 
-  <body class=" text-dark sonal-body">
-    <nav class="navbar navbar-expand-lg bg-secondary text-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand width" href="#">Portfolio</a>
-      </div>
+  <!--FONTASOME-->
+  <link href="cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" />
+  <!--REMIX ICON-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+  <!--bootstrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+</head>
 
-      <div>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-md-6 ">
-          <h3>Hello, My Self</h3>
-          <h1>Sonal Chaudhari</h1>
-          <p class="sonal-text">
-            I'm Sonal Chaudhari. I am an aspiring Software Developer currently
-            pursuing a Bachelor of Computer Applications (BCA) at Dr. Babasaheb
-            Ambedkar Open University (BAOU). I have completed my Higher
-            Secondary Education (12th Grade) and am currently enhancing my
-            technical skills through a Software Development course at Red &
-            White Multimedia Education. I am passionate about programming, web
-            development, and creating user-friendly digital solutions. My goal
-            is to build innovative software applications and grow as a
-            professional Software Developer.
-          </p>
-        </div>
-       <div class="col-md-6 sonal-image">
-          <img
-            src="./image/image-1.png"
-            alt="Sonal Chaudhari"
-            class="img-fluid rounded-9 sonal-image"
-          />
-        </div>
-      </div>
+<body class="sonal-body">
+  <nav class="navbar navbar-expand-lg navbar-dark sonal-nav">
+    <div class="container-fluid">
+      <a class="navbar-brand width sonal-font" href="#">Sonal</a>
     </div>
 
-    <!--bootstrap js-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-yGB6Cv2s6d1K9G4a7e6m0bFp9aJLmX2l9fZ1wE5YBujZqJLB"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <div>
+      <ul class="navbar-nav sonal-te">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#project">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 ">
+        <h3 class="h3">Hello, My Self</h3>
+        <h1 class="h1"><span>Sonal</span> Chaudhari</h1>
+
+        <p class="ani-text">
+          I'm an Aspiring Software Developer
+        </p>
+        <p class="sonal-text">
+          I'm Sonal Chaudhari. I am an aspiring Software Developer currently
+          pursuing a Bachelor of Computer Applications (BCA) at Dr. Babasaheb
+          Ambedkar Open University (BAOU). I have completed my Higher
+          Secondary Education (12th Grade) and am currently enhancing my
+          technical skills through a Software Development course at Red &
+          White Multimedia Education. I am passionate about programming, web
+          development, and creating user-friendly digital solutions. My goal
+          is to build innovative software applications and grow as a
+          professional Software Developer.
+        </p>
+
+        <div class="sonal-buttons">
+          <a href="#project" class="btn-work">Explore My Work <i class="ri-arrow-right-line"></i> </a>
+          <a href="#contact" class="btn-contact">Contact Me <i class="ri-mail-unread-line"></i></a>
+        </div>
+        <div class="sonal-social">
+          <a href="https://github.com/" target="_blank">GitHub <i class="ri-arrow-right-up-line"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank">LinkedIn <i class="ri-arrow-right-up-line"></i></a>
+          <a href="https://www.instagram.com/" target="_blank">Instagram <i class="ri-arrow-right-up-line"></i></a>
+        </div>
+
+      </div>
+      <div class="col-md-6 sonal-image">
+        <img src="./image/image-1.png" alt="Sonal Chaudhari" class="img-fluid rounded-circle sonal-image" />
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <section id="skills" class="skills-section">
+    <h2>My <span>Skills</span></h2>
+    <p class="skills-intro">
+      Technologies I'm learning on my journey
+      to becoming a Software Developer.
+    </p>
+
+    <div class="skills-container">
+      <div class="skill-card">
+        <h3>HTML</h3>
+        <p>Building the structure of websites.</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>CSS</h3>
+        <p>Designing beautiful web pages.</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>JavaScript</h3>
+        <p>Adding logic and interactivity.</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Problem Solving</h3>
+        <p>Learning to solve coding problems.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section id="project" class="projects-section">
+    <h2>My <span>Projects</span></h2>
+    <p class="projects-intro">
+      Here are some projects from my learning journey.
+    </p>
+
+    <div class="projects-container">
+
+      <div class="project-card">
+        <div class="project-icon"></i></div>
+        <h3>Personal Portfolio</h3>
+        <p>
+          A personal website to showcase my skills,
+          education and projects using HTML and CSS.
+        </p>
+        <span class="project-tech">HTML . CSS</span>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon"></i></div>
+        <h3>Food Ordering Website</h3>
+        <p>
+          A practice website concept for displaying
+          food items and creating a simple menu.
+        </p>
+        <span class="project-tech">HTML . CSS . JavaScript</span>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon"></div>
+        <h3>Simple Calculator</h3>
+        <p>
+          A beginner project to practise calculations
+          and JavaScript functions.
+        </p>
+        <span class="project-tech">HTML . CSS . JavaScript</span>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="contact" class="contact-section">
+    <h2>Let's Work <span>Together</span></h2>
+
+    <p>
+      I'm learning Software Development and looking
+      forward to building amazing projects.
+    </p>
+
+    <div class="contact-card">
+      <h3>Get In Touch</h3>
+
+      <p>Have an opportunity or a project idea?</p>
+
+      <a href="mailto:your-email@example.com" class="contact-button">
+        <i class="ri-mail-ai-line"></i> Email Me
+      </a>
+
+      <div class="contact-social">
+        <a href="https://github.com/" target="_blank">
+          GitHub <i class="ri-arrow-right-up-line"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/" target="_blank">
+          LinkedIn <i class="ri-arrow-right-up-line"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="journey" class="journey-section">
+    <h2>My <span>Journey</span></h2>
+    <p class="journey-intro">
+      Every expert was once a beginner.
+      This is where my journey begins.
+    </p>
+
+    <div class="journey-container">
+
+      <div class="journey-card">
+        <div class="journey-dot"></div>
+        <p class="journey-date">COMPLETED</p>
+        <h3>12th Standard</h3>
+        <p>
+          Completed my higher secondary education
+          and started exploring my interests in technology.
+        </p>
+      </div>
+
+      <div class="journey-card">
+        <div class="journey-dot"></div>
+        <p class="journey-date">CURRENTLY STUDYING</p>
+        <h3>BCA — BAOU</h3>
+        <p>
+          Pursuing Bachelor of Computer Applications
+          to build a strong foundation in computer science.
+        </p>
+      </div>
+
+      <div class="journey-card">
+        <div class="journey-dot"></div>
+        <p class="journey-date">CURRENTLY LEARNING</p>
+        <h3>Software Development</h3>
+        <p>
+          Practising HTML, CSS and JavaScript while
+          building projects and improving my coding skills.
+        </p>
+      </div>
+
+    </div>
+  </section>
+  <footer class="portfolio-footer">
+    <p> 2026 Sonal Chaudhari | Aspiring Software Developer</p>
+  </footer>
+
+  <!--bootstrap js-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-yGB6Cv2s6d1K9G4a7e6m0bFp9aJLmX2l9fZ1wE5YBujZqJLB" crossorigin="anonymous"></script>
+</body>
+
+<a href="#top" class="back-to-top" aria-label="Back to top">
+  <i class="ri-arrow-down-line"></i>
+</a>
+
 </html>
